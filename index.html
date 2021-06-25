@@ -5,10 +5,26 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="./script.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+              integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+              crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/header.css">
+        <script src="./script.js" defer ></script>
         <title>Weady Webee</title>
     </head>
     <body>
-
+        <div data-crawler="crawler" id="crawler">
+            <input type="text" id="city" name="city" placeholder=" " required>
+            <label for="city" data-cityName="cityName">City name</label>
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <header>
+            <div>
+                <h2>City name</h2>
+                <p>Temp</p>
+            </div>
+        </header>
+        <div id="loader" data-loader="loader"></div>
     </body>
 </html>

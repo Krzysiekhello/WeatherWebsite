@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/Krzysiekhello/WeatherWebsite.git"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Krzysiekhello/WeatherWebsite/issues"
   },
-  "homepage": "https://github.com/Krzysiekhello/WeatherWebsite#readme"
+  "homepage": "https://github.com/Krzysiekhello/WeatherWebsite#readme",
+  "dependencies": {
+  }
 }
